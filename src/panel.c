@@ -88,7 +88,46 @@ void panel(void)
 	DGIN_PROC( I_17,53, LOW,10,fTrg10ms);
 	DGIN_PROC( I_19,54, LOW,10,fTrg10ms);
 	DGIN_PROC( I_21,55, LOW,10,fTrg10ms);
-	DGOUT_PROC( 30, fOFF, LOW );
-	DGOUT_PROC( 31, fOFF, LOW );
-	DGOUT_PROC( 32, fOFF, LOW );
+	/*
+	aaa += ~I_07 & 0x01; aaa <<= 1;
+	aaa += ~I_09 & 0x01; aaa <<= 1;
+	aaa += ~I_11 & 0x01; aaa <<= 1;
+	aaa += ~I_13 & 0x01; aaa <<= 1;
+	aaa += ~I_15 & 0x01; aaa <<= 1;
+	aaa += ~I_17 & 0x01; aaa <<= 1;
+	aaa += ~I_19 & 0x01; aaa <<= 1;
+	aaa += ~I_21 & 0x01;
+	
+	if (aaa)
+		switch (aaa & 0xff) {
+		case 0x80: case 0x08:
+			F1407 = 0x00;
+			F1409 = 0x00;
+			F1411 = 0x00;
+			break;
+		case 0x10: case 0x01:
+			F1407 = 0x01;
+			F1409 = 0x00;
+			F1411 = 0x00;
+			break;
+		case 0x20: case 0x02:
+			F1407 = 0x00;
+			F1409 = 0x01;
+			F1411 = 0x00;
+			break;
+		case 0x40: case 0x04:
+			F1407 = 0x00;
+			F1409 = 0x00;
+			F1411 = 0x01;
+			break;
+		default:
+			F1407 = 0x01;
+			F1409 = 0x01;
+			F1411 = 0x01;
+			break;
+		}
+	*/
+	DGOUT_PROC( 30, F1407, LOW );
+	DGOUT_PROC( 31, F1409, LOW );
+	DGOUT_PROC( 32, F1411, LOW );
 }
