@@ -45,4 +45,5 @@ Includes <System Includes> , "Project Includes"
 *******************************************************************************/
 
 #include "digitalio.h"
+#include "translater.h"
 #endif /*_PANEL_H_*/

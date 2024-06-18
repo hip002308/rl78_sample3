@@ -1,13 +1,13 @@
 品質記録情報
-2024年6月17日 16:44:11
+2024年6月18日 10:27:26
 
 ------ ビルド開始(RL78_Sample3, DefaultBuild) ------
 ------ ビルド終了(エラー:0個, 警告:0個)(RL78_Sample3, DefaultBuild) ------
 
 
 --- SHA1 hash value of output files ---
-C:\Users\t_yamashita\Documents\C演習\組込み\RL78_Sample3\DefaultBuild\RL78_Sample3.abs: 09c2c34c485e92bd7153d9e24b7b1594afe626aa
-C:\Users\t_yamashita\Documents\C演習\組込み\RL78_Sample3\DefaultBuild\RL78_Sample3.hex: d564f68db380fad19c600bf359bb873da4c26dd9
+C:\Users\t_yamashita\Documents\C演習\組込み\RL78_Sample3\DefaultBuild\RL78_Sample3.abs: 36dc537a5b8f39444e2e0da4d2fd58cc0307583d
+C:\Users\t_yamashita\Documents\C演習\組込み\RL78_Sample3\DefaultBuild\RL78_Sample3.hex: 70d082a96265206bc7731cb831fcca5333ede426
 
 
 --- システム情報 ---
@@ -33,13 +33,13 @@ C:\Users\t_yamashita\Documents\C演習\組込み\RL78_Sample3\DefaultBuild\RL78_
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *メモリ使用量
  *プライベート・ワーキング・セット
-  524 MB
+  389 MB
  *GDIオブジェクト数
-  3077
+  2651
  *USERオブジェクト数
-  2649
+  1717
  *開いているファイル
-  5 editors, 5 files, 19 KB
+  11 editors, 11 files, 49 KB
 
 --- ビルド・ツール・プラグイン情報 ---
 RH850ビルド・ツールCC-RH用プラグイン
@@ -195,6 +195,8 @@ C:\Users\t_yamashita\Documents\C演習\組込み\RL78_Sample3\RL78_Sample3.mtpj
   
  * SMS Assemblerのバージョン
    V1.00.00.01 [29 May 2020]
+ * GREEN_DSP Structured Assembler のバージョン
+   V1.04.02
  
 
 デバッグ・ツール情報
